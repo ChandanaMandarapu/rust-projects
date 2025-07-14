@@ -9,7 +9,7 @@ fn main() {
         println!("\n--- TASK MASTER ---");
         println!("1. Add Task");
         println!("2. View Tasks");
-        println!("3. Exit");
+        println!("3. Exit CLI");
 
         let mut choice = String::new();
         io::stdin().read_line(&mut choice).unwrap();
@@ -48,7 +48,7 @@ fn main() {
             println!("Exiting TaskMaster.");
             break;
         } else {
-            println!("Invalid input. Try again.");
+            println!("Invalid input. Try again");
         }
     }
 }
