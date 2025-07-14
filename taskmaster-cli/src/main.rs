@@ -30,6 +30,8 @@ fn main() {
             } else {
                 println!("You can only add 3 tasks. Restart to reset.");
             }
+
+            
         } else if choice.trim() == "2" {
             println!("\n--- Your Tasks ---");
             if !task1.is_empty() {
